@@ -6,6 +6,8 @@ class Solution {
         }
         node.val = node.next.val;
         node.next = node.next.next;
+
+        // this the next next values
     }
 }
 
